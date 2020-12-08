@@ -10,7 +10,7 @@ if !exists('g:zenspace#default_mode')
 endif
 
 function! zenspace#setup_highlight() abort
-  highlight default ZenSpace term=underline ctermbg=DarkGreen guibg=DarkGreen
+  highlight default ZenSpace term=underline ctermbg=White guibg=White
 endfunction
 
 function! zenspace#on() abort
